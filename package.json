@@ -5,8 +5,9 @@
   "homepage": "https://MariiaZhuk.github.io/guess-number",
   "type": "module",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /guess-number/"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
